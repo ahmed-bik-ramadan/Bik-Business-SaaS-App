@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-arabic: 'IBM Plex Sans Arabic', sans-serif;
+  --font-sans: 'IBM Plex Sans Arabic', sans-serif;
+
+  --color-primary: #050505;
+  --color-accent: #c5a059;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-info: #3B82F6;
+  --color-background: #050505;
+  --color-surface: #080808;
+  --color-text-primary: #e5e7eb;
+  --color-text-secondary: rgba(255, 255, 255, 0.6);
+  --color-border: rgba(255, 255, 255, 0.05);
+}
+
+body {
+  font-family: var(--font-arabic);
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
